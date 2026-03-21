@@ -52,7 +52,7 @@
   },
   "resumeKey": null,
   "resumeName": null,
-  "resumeUrl": "https://drive.google.com/file/d/1m56mvz0agj-YDRFG5W09JrAvCpBY4HQp/view?usp=sharing",
+  "resumeUrl": "",
   "contact": {
     "email": "shubham1sure@gmail.com",
     "phone": "+91-7836878701",
@@ -102,8 +102,7 @@
         "Siemens NX"
       ],
       "imageKeys": [],
-      "vidKey": null,
-      "vidName": null,
+      "vidUrl": "",
       "pdfKey": null,
       "pdfName": null
     },
@@ -122,8 +121,7 @@
         "Aerodynamics"
       ],
       "imageKeys": [],
-      "vidKey": null,
-      "vidName": null,
+      "vidUrl": "",
       "pdfKey": null,
       "pdfName": null
     },
@@ -142,8 +140,7 @@
         "Bevel Gears"
       ],
       "imageKeys": [],
-      "vidKey": null,
-      "vidName": null,
+      "vidUrl": "",
       "pdfKey": null,
       "pdfName": null
     },
@@ -162,8 +159,7 @@
         "Parametric Design"
       ],
       "imageKeys": [],
-      "vidKey": null,
-      "vidName": null,
+      "vidUrl": "",
       "pdfKey": null,
       "pdfName": null
     },
@@ -182,8 +178,7 @@
         "Ergonomics"
       ],
       "imageKeys": [],
-      "vidKey": null,
-      "vidName": null,
+      "vidUrl": "",
       "pdfKey": null,
       "pdfName": null
     },
@@ -202,8 +197,7 @@
         "CAD"
       ],
       "imageKeys": [],
-      "vidKey": null,
-      "vidName": null,
+      "vidUrl": "",
       "pdfKey": null,
       "pdfName": null
     }
