@@ -1,0 +1,119 @@
+\documentclass[10pt,a4paper]{article}
+
+% Compact, one-page resume layout modeled on the supplied HCL resume.
+\usepackage[a4paper,left=0.50in,right=0.50in,top=0.34in,bottom=0.40in]{geometry}
+\usepackage{newtxtext,newtxmath}
+\usepackage[T1]{fontenc}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{xcolor}
+\usepackage[colorlinks=true,urlcolor=linkblue]{hyperref}
+
+\definecolor{linkblue}{HTML}{173B67}
+\hypersetup{pdfauthor={Shubham Kumar},pdftitle={Shubham Kumar - Software Engineer Intern Resume}}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\tabcolsep}{0pt}
+\renewcommand{\baselinestretch}{1.00}
+\urlstyle{same}
+
+% Small, consistent vertical rhythm.
+\newcommand{\ressection}[1]{%
+  \vspace{4.8pt}%
+  {\fontsize{10.2}{11.2}\selectfont\bfseries\MakeUppercase{#1}}\par
+  \vspace{2.3pt}\hrule height 0.4pt\vspace{3.6pt}%
+}
+\newcommand{\entryheading}[4]{%
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lr}
+    \textbf{#1} & \textbf{#2}\\
+    \textit{#3} & \textit{#4}
+  \end{tabular*}\par
+}
+\newcommand{\projectheading}[3]{%
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lr}
+    \textbf{\href{#2}{#1} \textcolor{linkblue}{[GitHub]}} & {\textit{\fontsize{8.2}{9.1}\selectfont #3}}
+  \end{tabular*}\par
+}
+\newenvironment{resbullets}{%
+  \begin{itemize}[leftmargin=11pt,label=\textbullet,itemsep=0pt,topsep=1.2pt,parsep=0pt,partopsep=0pt]
+  \fontsize{9.55}{10.95}\selectfont
+}{\end{itemize}\vspace{1pt}}
+
+\begin{document}
+\fontsize{9.8}{11.2}\selectfont
+
+\begin{center}
+  {\fontsize{21.5}{23}\selectfont\bfseries SHUBHAM KUMAR}\par
+  \vspace{1pt}
+  New Delhi, India \quad | \quad +91-7836878701 \quad | \quad \href{mailto:shubham1sure@gmail.com}{shubham1sure@gmail.com}\par
+  \vspace{1pt}
+  \href{https://nothing0g.github.io/analyst/}{Portfolio} \quad | \quad
+  \href{https://github.com/Nothing0g}{GitHub} \quad | \quad
+  \href{https://www.linkedin.com/in/shubham-kumar-diff/}{LinkedIn}
+\end{center}
+\vspace{-3pt}
+
+\ressection{Education}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lr}
+  \textbf{Delhi Technological University} & \textbf{New Delhi, India}\\
+  \textit{Bachelor of Technology in Mechanical Engineering} & \textit{Aug 2023 -- May 2027}
+\end{tabular*}\par
+\textbf{CGPA: 6.98/10} \quad | \quad Class XII: 74\% \quad | \quad Class X: 83.6\%
+
+\ressection{Professional Experience}
+\entryheading{NTPC Dadri}{Gautam Buddh Nagar, UP}{Summer Trainee -- Turbine Maintenance Department}{Jun 2026 -- Jul 2026}
+\begin{resbullets}
+  \item Analyzed operational and maintenance data across HP/LP turbine sections at a 2,000 MW coal-based plant, reviewing energy-conversion patterns and condition-monitoring signals.
+  \item Produced a 40-page technical report connecting reviewed plant data with P\&ID references and documenting lubrication, governing, and bearing-inspection workflows.
+\end{resbullets}
+
+\entryheading{DRDO -- SSPL}{New Delhi, India}{Research Intern}{Dec 2025 -- Jan 2026}
+\begin{resbullets}
+  \item Studied Pulse Tube and Dilution Refrigeration cycles for cryogenic defense-electronics applications below 4 K, interpreting system schematics and thermodynamic relationships.
+  \item Co-authored a structured technical report with senior scientists, translating research findings into documented engineering analysis.
+\end{resbullets}
+
+\entryheading{Engineers India Limited}{Gurugram, India}{Plant Design Intern}{Jun 2025 -- Jul 2025}
+\begin{resbullets}
+  \item Created plant-layout and piping drawings in AutoCAD using ASME/IS standards and senior-engineer feedback.
+  \item Applied GD\&T and CAESAR II pipe-stress concepts and automated a recurring Excel spend-reporting workflow; received an ``Excellent'' evaluation.
+\end{resbullets}
+
+\ressection{Selected Software \& AI Projects}
+\projectheading{TrueStack -- University Student Services Assistant}{https://github.com/Nothing0g/TrueStack_HCLTech_aiHackathon}{Python, FastAPI, LangGraph, RAG, SQLite, Docker}
+\begin{resbullets}
+  \item Led backend and integration for a local-first assistant, building FastAPI/Pydantic endpoints and a LangGraph workflow connecting cited policy retrieval with deterministic Python and SQLite tools.
+  \item Integrated structured responses, trace IDs, audit logging, privacy checks, and local Docker-based execution; used explicitly labelled synthetic policy data for demo scenarios.
+\end{resbullets}
+
+\projectheading{Retail Operations Copilot}{https://github.com/Nothing0g/testing_case}{Python, RAG, Streamlit, Tests, Evaluation}
+\begin{resbullets}
+  \item Built a policy-grounded operations copilot combining issue triage, section-level retrieval, and CSV-backed checks across inventory, receipts, returns, vendor performance, and support cases.
+  \item Added PII masking, prompt-injection/restricted-data safeguards, human-review routing, unit/regression tests, and repeatable evaluation on seeded cases.
+\end{resbullets}
+
+\projectheading{Turbine Maintenance Intelligence Copilot}{https://github.com/Nothing0g/turbine-maintenance-copilot}{Python, pandas, FastAPI, Testing, CI}
+\begin{resbullets}
+  \item Built a decision-support API that validates synthetic telemetry, detects temperature/vibration anomalies with rolling z-scores, retrieves maintenance evidence, and returns structured recommendations with uncertainty and human-review flags.
+  \item Added API/data-quality checks, evaluation metrics, latency logging, and GitHub Actions CI; fixed a timestamp-window boundary bug and retained a regression test.
+\end{resbullets}
+
+\projectheading{P\&ID Engineering-Document Intelligence}{https://github.com/Nothing0g/pid-engineering-document-intelligence}{Python, FastAPI, Typed Schemas, Graph Modeling, CI}
+\begin{resbullets}
+  \item Built a revision-aware API that maps synthetic P\&ID metadata to typed equipment/instrument entities and an engineering graph, compares drawing revisions, and returns source-linked answers.
+  \item Implemented dangling-connection validation, low-confidence review, and evidence-linked Q\&A; fixed a revision-comparison bug that missed deleted entities.
+\end{resbullets}
+
+\ressection{Technical Skills}
+\textbf{Programming \& Data:} Python, SQL, pandas, NumPy, MySQL, SQLite, scikit-learn\\
+\textbf{Backend \& Systems:} FastAPI, REST APIs, Pydantic, Docker, Git/GitHub, GitHub Actions, CI\\
+\textbf{AI Systems:} RAG, LangGraph, ChromaDB, Sentence Transformers, Ollama/Qwen, information retrieval, structured outputs\\
+\textbf{Engineering Practices:} Unit/regression testing, API contracts, schema validation, data quality, logging, evaluation, debugging
+
+\ressection{Achievements}
+\textbf{Dell Aspire Scholar 2023:} Selected among top national scholars by the Michael \& Susan Dell Foundation.\par
+\textbf{NCC ``A'' Certificate:} Represented Delhi cadets nationally; met the Hon'ble Prime Minister at the Red Fort.\par
+\textbf{House Captain:} Led the Fraternity team to multiple gold medals in inter-house competitions.
+
+\end{document}

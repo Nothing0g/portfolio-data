@@ -1,0 +1,142 @@
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[a4paper,top=0.45in,bottom=0.45in,left=0.55in,right=0.55in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage[hidelinks]{hyperref}
+\usepackage{microtype}
+\usepackage{tabularx}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\tabcolsep}{0pt}
+\urlstyle{same}
+\linespread{1.00}
+\emergencystretch=1em
+
+\titleformat{\section}
+  {\bfseries\small}
+  {}{0pt}{}
+  [\vspace{-2pt}\titlerule]
+
+\titlespacing*{\section}{0pt}{5pt}{3pt}
+
+\setlist[itemize]{
+  leftmargin=13pt,
+  itemsep=0pt,
+  topsep=1pt,
+  parsep=0pt,
+  partopsep=0pt
+}
+
+\newcommand{\resumeSubheading}[4]{%
+  \begin{tabular*}{\textwidth}{@{}l@{\extracolsep{\fill}}r@{}}
+    \textbf{#1} & \textbf{#2} \\
+    \textit{#3} & \textit{#4}
+  \end{tabular*}\vspace{-3pt}
+}
+
+\newcommand{\resumeProject}[2]{%
+  \textbf{#1}\hfill{\small\textit{#2}}\vspace{-3pt}
+}
+
+\begin{document}
+
+\begin{center}
+  {\LARGE\bfseries SHUBHAM KUMAR}\\[2pt]
+  {\small\bfseries DATA SCIENCE \;|\; DATA ANALYTICS \;|\; MACHINE LEARNING}\\[2pt]
+  New Delhi, India \;|\; +91-7836878701 \;|\;
+  \href{mailto:shubham1sure@gmail.com}{shubham1sure@gmail.com}\\[2pt]
+  \href{https://nothing0g.github.io/analyst/}{Portfolio}
+  \;|\;
+  \href{https://github.com/Nothing0g}{GitHub}
+  \;|\;
+  \href{https://www.linkedin.com/in/shubham-kumar-diff/}{LinkedIn}
+\end{center}
+
+\vspace{-8pt}
+
+\section*{PROFILE}
+Data-focused engineering student at Delhi Technological University applying Python, SQL, statistics, and machine learning to business and operational data. Built analytics projects covering EDA, data cleaning, classification, time-series patterns, and KPI reporting. Translate findings into recommendations through model evaluation, data-quality checks, stakeholder communication, and responsible model use.
+
+\section*{EDUCATION}
+\resumeSubheading
+  {Delhi Technological University}{New Delhi, India}
+  {Bachelor of Technology in Mechanical Engineering}{Aug 2023 -- May 2027}
+
+\section*{EXPERIENCE}
+
+\resumeSubheading
+  {NTPC Dadri}{Gautam Buddh Nagar, Uttar Pradesh}
+  {Summer Trainee -- Turbine Maintenance}{Jun 2026 -- Jul 2026}
+\begin{itemize}
+  \item Analyzed HP/LP turbine operational and maintenance data at a 2,000 MW plant, documenting performance patterns and maintenance workflows in a 40-page report cross-referenced to P\&ID records for maintenance planning decisions. The report organized findings into traceable observations to support maintenance discussions and follow-up review.
+\end{itemize}
+
+\resumeSubheading
+  {CrackNonTech}{Delhi}
+  {Analyst Fellow}{May 2026 -- Jul 2026}
+\begin{itemize}
+  \item Structured profitability, market-entry, and industry cases into analytical questions, assumptions, and measurable decision criteria, linking quantitative evidence to commercial implications.
+  \item Applied Python and SQL to business datasets, checked data consistency, validated findings, and translated results into practical recommendations and stakeholder-ready presentations.
+\end{itemize}
+
+
+\resumeSubheading
+  {Engineers India Limited (EIL)}{Gurugram, Haryana}
+  {Plant Design Intern}{Jun 2025 -- Jul 2025}
+\begin{itemize}
+  \item Prepared and revised AutoCAD plant layouts and piping drawings, translating engineering specifications and design-review feedback into accurate technical documentation.
+  \item Applied ASME/IS piping standards, GD\&T principles, and CAESAR II pipe-stress concepts when checking design requirements and fabrication readiness.
+  \item Automated a recurring Excel expenditure-reporting workflow and received an ``Excellent'' final internship evaluation, improving reporting consistency and repeatability.
+\end{itemize}
+
+\section*{PROJECTS}
+
+\resumeProject
+  {\href{https://nothing0g.github.io/analyst/projects/uber-ride-demand/}{Uber Ride Demand \& Supply-Failure Analysis}
+  \hspace{3pt}\textnormal{\textit{[\href{https://github.com/Nothing0g/Uber_ride_demand_analysis}{GitHub}]}}}
+  {Python, pandas, NumPy, Matplotlib}
+\begin{itemize}
+  \item Analyzed 150,000 ride bookings across 365 days using Python and pandas; cleaned timestamps and compared hourly demand, weekday/weekend patterns, pickup locations, fares, and trip distances.
+  \item Used time-based EDA and a seven-day rolling average to separate volume trends from service failures; cancellation and no-driver rates remained near 24--26\% across hours.
+  \item Translated results into operational recommendations, distinguishing persistent matching failures from peak-hour demand and documenting limitations of a likely synthetic dataset.
+\end{itemize}
+
+\resumeProject
+  {\href{https://nothing0g.github.io/analyst/projects/hr-employee-attrition/}{HR Employee Attrition Analysis}
+  \hspace{3pt}\textnormal{\textit{[\href{https://github.com/Nothing0g/hr_employee_attrition_analysis}{GitHub}]}}}
+  {Python, pandas, scikit-learn, Classification}
+\begin{itemize}
+  \item Cleaned 1,470 IBM HR Analytics records, checked nulls and duplicates, and explored attrition by overtime, job role, income, tenure, commute distance, and satisfaction features.
+  \item Compared Logistic Regression and Random Forest using precision, recall, and F1, prioritizing recall because overall accuracy masked missed leavers.
+  \item Converted findings into retention recommendations and documented limits of observational data, avoiding unsupported causal claims.
+\end{itemize}
+
+\resumeProject
+  {\href{https://nothing0g.github.io/analyst/projects/loan-approval/}{Loan Approval Analysis}
+  \hspace{3pt}\textnormal{\textit{[\href{https://github.com/Nothing0g/loan-approval-analysis}{GitHub}]}}}
+  {Python, pandas, scikit-learn, Logistic Regression}
+\begin{itemize}
+  \item Prepared public loan data using median/mode imputation and categorical encoding, then trained an interpretable logistic-regression baseline with a reproducible 70/30 train/test split.
+  \item Evaluated holdout accuracy, confusion matrix, and class-level precision, recall, and F1; documented recall imbalance and the need for fairness, calibration, and further validation before real-world use.
+\end{itemize}
+
+\section*{SKILLS}
+\textbf{Programming \& Analytics:} Python, SQL, pandas, NumPy, data cleaning, exploratory analysis\\
+\textbf{Machine Learning:} scikit-learn, Logistic Regression, Random Forest, classification, model evaluation\\
+\textbf{BI \& Reporting:} Power BI, Looker Studio, Excel, KPI dashboards, data visualization\\
+\textbf{Data Quality \& Methods:} preprocessing, feature engineering, statistics, precision/recall/F1, validation\\
+\textbf{Tools:} Git/GitHub, Matplotlib, Seaborn, MySQL, FastAPI
+
+\section*{CERTIFICATIONS \& ACHIEVEMENTS}
+{\fontsize{9.2pt}{10.2pt}\selectfont
+\textbf{Certifications:} Python for Data Science, AI \& Development; Git/GitHub -- 2024.\\[-1pt]
+\textbf{Achievements:} Dell Aspire Scholar 2023 -- Michael \& Susan Dell Foundation; NCC ``A'' Certificate; School House Captain.
+}
+
+\end{document}

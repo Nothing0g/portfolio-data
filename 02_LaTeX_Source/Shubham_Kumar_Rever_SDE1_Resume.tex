@@ -1,0 +1,130 @@
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[a4paper,top=0.45in,bottom=0.45in,left=0.55in,right=0.55in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage[hidelinks]{hyperref}
+\usepackage{microtype}
+\usepackage{tabularx}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\tabcolsep}{0pt}
+\urlstyle{same}
+\linespread{1.02}
+\emergencystretch=1em
+
+\titleformat{\section}
+  {\bfseries\small}
+  {}{0pt}{}
+  [\vspace{-2pt}\titlerule]
+
+\titlespacing*{\section}{0pt}{7pt}{4pt}
+
+\setlist[itemize]{
+  leftmargin=13pt,
+  itemsep=0.5pt,
+  topsep=1.5pt,
+  parsep=0pt,
+  partopsep=0pt
+}
+
+\newcommand{\resumeSubheading}[4]{%
+  \begin{tabular*}{\textwidth}{@{}l@{\extracolsep{\fill}}r@{}}
+    \textbf{#1} & \textbf{#2} \\
+    \textit{#3} & \textit{#4}
+  \end{tabular*}\vspace{-3pt}
+}
+
+\newcommand{\resumeProject}[2]{%
+  \textbf{#1}\hfill{\small\textit{#2}}\vspace{-3pt}
+}
+
+\begin{document}
+
+\begin{center}
+  {\LARGE\bfseries SHUBHAM KUMAR}\\[2pt]
+  {\small\bfseries SOFTWARE ENGINEERING \;|\; BACKEND DEVELOPMENT \;|\; AI SYSTEMS}\\[2pt]
+  New Delhi, India \;|\; +91-7836878701 \;|\;
+  \href{mailto:shubham1sure@gmail.com}{shubham1sure@gmail.com}\\[2pt]
+  \href{https://nothing0g.github.io/analyst/}{Portfolio}
+  \;|\;
+  \href{https://github.com/Nothing0g}{GitHub}
+  \;|\;
+  \href{https://www.linkedin.com/in/shubham-kumar-diff/}{LinkedIn}
+\end{center}
+
+\vspace{-8pt}
+
+\section*{PROFILE}
+Software-focused engineering student at Delhi Technological University building Python backend services and AI-assisted workflows. Led backend and integration for a three-person AI hackathon project using FastAPI and LangGraph. Built API-first prototypes with data validation, evidence retrieval, automated evaluation, and regression tests, with a focus on reliable, maintainable software.
+
+\section*{EDUCATION}
+\resumeSubheading
+  {Delhi Technological University}{New Delhi, India}
+  {Bachelor of Technology in Mechanical Engineering}{Aug 2023 -- May 2027}
+
+\section*{EXPERIENCE}
+\resumeSubheading
+  {CrackNonTech}{Delhi}
+  {Analyst Fellow}{May 2026 -- Jul 2026}
+\begin{itemize}
+  \item Structured open-ended profitability, market-entry, and industry cases into clear analytical questions, assumptions, and decision criteria.
+  \item Used Python and SQL to analyze business datasets and translate findings into recommendations and stakeholder-ready presentations.
+\end{itemize}
+
+\resumeSubheading
+  {Engineers India Limited (EIL)}{Gurugram, Haryana}
+  {Plant Design Intern}{Jun 2025 -- Jul 2025}
+\begin{itemize}
+  \item Prepared and revised AutoCAD plant layouts and piping drawings, translating engineering requirements and design-review feedback into accurate technical deliverables.
+  \item Automated a recurring Excel expenditure-reporting workflow and received an ``Excellent'' final internship evaluation.
+\end{itemize}
+
+\section*{PROJECTS}
+\resumeProject
+  {\href{https://nothing0g.github.io/analyst/projects/truestack-ai-assistant/}{TrueStack -- AI-Powered University Services Assistant}
+  \hspace{3pt}\textnormal{\textit{[\href{https://github.com/Nothing0g/TrueStack_HCLTech_aiHackathon}{GitHub}]}}}
+  {Python, FastAPI, LangGraph, SQLite}
+\begin{itemize}
+  \item Led backend and integration for a three-person hackathon team, defining shared interfaces and connecting retrieval with deterministic tools through a central LangGraph workflow.
+  \item Built FastAPI/Pydantic endpoints and integrated cited policy retrieval, SQLite-backed tools, structured responses, trace IDs, audit logging, and local Docker execution.
+  \item Added routing and validation for policy versus data-dependent questions, access checks, and explicit handling of unsupported requests.
+\end{itemize}
+
+\resumeProject
+  {\href{https://nothing0g.github.io/analyst/projects/turbine-maintenance-copilot/}{Turbine Maintenance Intelligence Copilot}
+  \hspace{3pt}\textnormal{\textit{[\href{https://github.com/Nothing0g/turbine-maintenance-copilot}{GitHub}]}}}
+  {Python, FastAPI, pandas, Testing}
+\begin{itemize}
+  \item Built a FastAPI decision-support service for telemetry validation, rolling z-score anomaly detection, and procedure retrieval, returning structured recommendations with uncertainty and human-review flags.
+  \item Added reproducible evaluation, API/data-quality checks, logging, and regression tests; fixed a timestamp-window selection bug and retained a test to prevent recurrence.
+\end{itemize}
+
+\resumeProject
+  {\href{https://nothing0g.github.io/analyst/projects/pid-engineering-document-intelligence/}{P\&ID Engineering-Document Intelligence}
+  \hspace{3pt}\textnormal{\textit{[\href{https://github.com/Nothing0g/pid-engineering-document-intelligence}{GitHub}]}}}
+  {Python, FastAPI, Graph Modeling}
+\begin{itemize}
+  \item Developed a revision-aware service that converts synthetic P\&ID metadata into typed entities and graph relationships, validates connections, and compares document revisions.
+  \item Added source-linked answers and review flags; fixed a revision-comparison bug that missed deleted entities and retained regression coverage.
+\end{itemize}
+
+\section*{SKILLS}
+\textbf{Programming:} Python, SQL, OOP fundamentals, data structures and algorithms\\
+\textbf{Backend Engineering:} FastAPI, Django, REST APIs, Pydantic, request validation, API testing\\
+\textbf{Data \& AI Systems:} pandas, NumPy, scikit-learn, RAG, embeddings, LangGraph, ChromaDB, SQLite\\
+\textbf{Engineering Practices:} Git/GitHub, debugging, regression testing, CI, logging, Docker, documentation\\
+\textbf{Additional Tools:} Excel, AutoCAD, SolidWorks, Siemens NX
+
+\section*{CERTIFICATIONS \& ACHIEVEMENTS}
+{\fontsize{9.2pt}{10.2pt}\selectfont
+\textbf{Certifications:} Python for Data Science, AI \& Development; Git/GitHub -- 2024.\\[-1pt]
+\textbf{Achievements:} Dell Aspire Scholar 2023 -- Michael \& Susan Dell Foundation; NCC ``A'' Certificate; School House Captain.
+}
+
+\end{document}

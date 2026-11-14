@@ -1,0 +1,216 @@
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[a4paper,top=0.45in,bottom=0.45in,left=0.55in,right=0.55in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\usepackage{microtype}
+\usepackage{tabularx}
+
+\definecolor{githubblue}{HTML}{0969DA}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\tabcolsep}{0pt}
+\urlstyle{same}
+\linespread{1.00}
+\emergencystretch=1em
+
+\titleformat{\section}
+  {\bfseries\small}
+  {}{0pt}{}
+  [\vspace{-2pt}\titlerule]
+
+\titlespacing*{\section}{0pt}{5pt}{3pt}
+
+\setlist[itemize]{
+  leftmargin=13pt,
+  itemsep=0pt,
+  topsep=1pt,
+  parsep=0pt,
+  partopsep=0pt
+}
+
+\newcommand{\resumeSubheading}[4]{%
+  \begin{tabular*}{\textwidth}{@{}l@{\extracolsep{\fill}}r@{}}
+    \textbf{#1} & \textbf{#2} \\
+    \textit{#3} & \textit{#4}
+  \end{tabular*}\vspace{-3pt}
+}
+
+\newcommand{\resumeProject}[2]{%
+  \textbf{#1}\hfill{\small\textit{#2}}\vspace{-3pt}
+}
+
+\begin{document}
+
+%----------HEADER----------
+
+\begin{center}
+  {\LARGE\bfseries SHUBHAM KUMAR}\\[2pt]
+
+  New Delhi, India \;|\; +91-7836878701 \;|\;
+  \href{mailto:shubham1sure@gmail.com}{shubham1sure@gmail.com}\\[2pt]
+  \href{https://nothing0g.github.io/analyst/}{Portfolio}
+  \;|\;
+  \href{https://github.com/Nothing0g}{GitHub}
+  \;|\;
+  \href{https://www.linkedin.com/in/shubham-kumar-diff/}{LinkedIn}
+\end{center}
+
+\vspace{-8pt}
+
+%----------PROFILE----------
+
+\section*{PROFILE}
+Mechanical Engineering student at DTU with experience in business case analysis,
+user research, and data-driven problem-solving. Analysed business and operational
+datasets using Python, SQL, and Excel; translated student research into a fitness-app
+MVP and built acquisition-funnel and demand-analysis case studies. Comfortable
+presenting findings and using data to understand user behaviour, funnel performance,
+and opportunities for process improvement.
+
+%----------EDUCATION----------
+
+\section*{EDUCATION}
+
+\resumeSubheading
+  {Delhi Technological University}{New Delhi, India}
+  {Bachelor of Technology in Mechanical Engineering}{Aug 2023 -- May 2027}
+  \textbf{CGPA: 6.98/10} \quad | \quad
+  \textbf{Class XII: 74\%} \quad | \quad
+  \textbf{Class X: 83.6\%}
+
+%----------EXPERIENCE----------
+
+\section*{EXPERIENCE}
+
+\resumeSubheading
+  {CrackNonTech}{Delhi}
+  {Analyst Fellow}{May 2026 -- Jul 2026}
+
+\begin{itemize}
+  \item Solved live business cases and guesstimates across
+  \textbf{profitability, market entry, and industry analysis}, breaking
+  ambiguous prompts into structured questions, hypotheses, assumptions,
+  and decision criteria under time pressure.
+
+  \item Analysed business datasets using \textbf{Python and SQL}, connected
+  findings to the business question, and presented recommendations through
+  stakeholder-ready decks, adapting technical detail for non-technical audiences.
+\end{itemize}
+
+\resumeSubheading
+  {NTPC Dadri}{Gautam Buddh Nagar, Uttar Pradesh}
+  {Summer Trainee -- Turbine Maintenance}{Jun 2026 -- Jul 2026}
+
+\begin{itemize}
+  \item Analysed operational and maintenance data across HP/LP turbine sections
+  at a \textbf{2,000 MW plant}, studying performance patterns and stage-wise
+  energy conversion under departmental guidance.
+
+  \item Compared condition-based and preventive maintenance practices across
+  lubrication systems, governing mechanisms, and bearing inspection; consolidated
+  verified findings and P\&ID references into a \textbf{40-page report}.
+\end{itemize}
+
+\resumeSubheading
+  {Engineers India Limited (EIL)}{Gurugram, Haryana}
+  {Plant Design Intern}{Jun 2025 -- Jul 2025}
+
+\begin{itemize}
+  \item Created and revised AutoCAD plant-layout and piping drawings for live
+  infrastructure projects, incorporating review feedback from senior engineers.
+
+  \item Automated a recurring \textbf{Excel spend-reporting} workflow to improve
+  reporting consistency; received an \textbf{``Excellent'' final evaluation}.
+\end{itemize}
+
+%----------PROJECTS----------
+
+\section*{PROJECTS}
+
+\resumeProject
+  {\href{https://nothing0g.github.io/analyst/projects/cultfit-user-behavior/}
+  {CultFit: User Research \& Behavioural Insights}
+  \hspace{3pt}\textnormal{{\color{githubblue}\textit{[Case Study]}}}}
+  {Survey Research, User Insights, Thunkable}
+
+\begin{itemize}
+  \item Surveyed approximately \textbf{200 college students} on fitness-app
+  engagement and drop-off; synthesised responses to identify motivation as
+  the primary barrier to sustained participation.
+
+  \item Turned the research insight into a focused \textbf{Thunkable MVP}
+  built around leaderboards, milestones, and rewards; presented the concept
+  at a Dell Aspire event as a product hypothesis, not a proven engagement lift.
+\end{itemize}
+
+\resumeProject
+  {\href{https://nothing0g.github.io/analyst/projects/interior-lead-funnel/}
+  {Interior Lead Funnel Leak Detector}
+  \hspace{3pt}\textnormal{{\color{githubblue}\textit{[Case Study]}}}}
+  {SQL, Python, Funnel Analysis}
+
+\begin{itemize}
+  \item Built a source-level scorecard from \textbf{192 synthetic lead
+  records} across four acquisition channels, tracking first-response SLA,
+  consultation rates, win rates, and average response time.
+
+  \item Created a \textbf{66-record follow-up queue} to flag SLA breaches
+  and overdue actions; defined the four-hour response boundary and checked
+  metric logic with SQL tests before interpreting channel differences.
+
+  \item Compared acquisition-source patterns without treating the simulated
+  results as real company performance; documented data provenance and limits.
+\end{itemize}
+
+\resumeProject
+  {\href{https://nothing0g.github.io/analyst/projects/uber-ride-demand/}
+  {Uber Ride Demand \& Supply-Failure Analysis}
+  \hspace{3pt}\textnormal{{\color{githubblue}\textit{[Case Study]}}}}
+  {Python, pandas, NumPy, Data Analysis}
+
+\begin{itemize}
+  \item Analysed \textbf{150,000 NCR bookings} by time, service status,
+  and pickup geography to separate changes in demand from service
+  reliability across the day.
+
+  \item Identified an approximately \textbf{9$\times$ demand swing} while
+  the hourly failure rate remained near 24--26\%; used rates rather than
+  raw failure counts to avoid confusing higher volume with worse service.
+
+  \item Compared weekday/weekend patterns, pickup concentration, and fare
+  and distance bands; flagged the likely simulated nature of the dataset
+  rather than presenting it as an Uber operating benchmark.
+\end{itemize}
+
+%----------SKILLS----------
+
+\section*{SKILLS}
+
+\textbf{Growth \& Research:} Market research, user insights, acquisition-funnel
+analysis, business case structuring, KPI reporting\\
+\textbf{Data \& Analytics:} Excel, Python (pandas, NumPy), SQL, data cleaning,
+performance analysis, dashboard interpretation\\
+\textbf{Tools \& Communication:} ChatGPT, Figma, Thunkable, stakeholder
+presentations, report writing
+
+%----------LEADERSHIP & ACHIEVEMENTS----------
+
+\section*{LEADERSHIP \& ACHIEVEMENTS}
+
+{\fontsize{9.2pt}{10.2pt}\selectfont
+\textbf{Leadership:} School House Captain; led the Fraternity team to multiple
+gold medals in inter-house competitions.\\[-1pt]
+\textbf{Scholarship:} Dell Aspire Scholar 2023 -- Michael \& Susan Dell
+Foundation.\\[-1pt]
+\textbf{Activities:} NCC ``A'' Certificate; represented Delhi cadets nationally.
+}
+
+\end{document}

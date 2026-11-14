@@ -1,0 +1,680 @@
+{
+  "profile_metadata": {
+    "candidate": "Shubham Kumar",
+    "prepared_on": "2026-11-14",
+    "purpose": "AI ingestion context for resume tailoring and job matching",
+    "source_scope": "Professional/resume-related conversation memory and saved resume/JD artifacts; job-search Excel trackers intentionally excluded",
+    "accuracy_policy": "Do not invent facts; honor verification flags; a resume draft does not prove submission."
+  },
+  "identity": {
+    "full_name": "Shubham Kumar",
+    "resume_location": "New Delhi, India",
+    "email": "shubham1sure@gmail.com",
+    "phone": "+91-7836878701",
+    "portfolio": "https://nothing0g.github.io/analyst/",
+    "projects_page": "https://nothing0g.github.io/analyst/projects/",
+    "github": "https://github.com/Nothing0g",
+    "linkedin": "https://www.linkedin.com/in/shubham-kumar-diff/"
+  },
+  "education": {
+    "institution": "Delhi Technological University",
+    "degree": "B.Tech Mechanical Engineering",
+    "start": "2023-08",
+    "expected_graduation": "2027-05",
+    "cgpa": {
+      "value": "6.98/10",
+      "status": "repeated in saved resumes; confirm current aggregate"
+    },
+    "class_12": "74%",
+    "class_10": {
+      "resume_value": "83.6%",
+      "older_memory_value": "82%",
+      "status": "conflict; confirm"
+    },
+    "semester_sgpa_history": [
+      5.9,
+      6.2,
+      7.2,
+      7.27,
+      7.67
+    ],
+    "academic_standing_note": "Sixth semester was the latest remembered standing; may be outdated."
+  },
+  "positioning": {
+    "summary": "Mechanical Engineering student at DTU with industrial/engineering exposure, applying Python, SQL, analytics, backend development, and AI methods to operational and business problems.",
+    "primary_roles": [
+      "Data Analyst",
+      "Business Analyst",
+      "BI Analyst",
+      "Product Analyst",
+      "Growth Analyst",
+      "Operations Analyst",
+      "Decision Analyst"
+    ],
+    "secondary_roles": [
+      "Junior Data Scientist",
+      "AI Engineer",
+      "GenAI Engineer",
+      "Backend Engineer",
+      "Software Engineer Intern",
+      "Industrial AI",
+      "Engineering Analytics",
+      "Mechanical CAD/FEA",
+      "Supply Chain Graduate Engineer Trainee"
+    ],
+    "compensation_preference": {
+      "analyst_base_preferred": "INR 9 LPA",
+      "earlier_base_floor": "INR 8-9 LPA",
+      "target_ctc": "INR 10-12 LPA",
+      "note": "Candidate preference, not guaranteed offer/market data."
+    }
+  },
+  "experience": [
+    {
+      "organization": "CrackNonTech",
+      "title": "Analyst Fellow",
+      "location": "Delhi",
+      "dates": "2026-05 to 2026-07",
+      "evidence": "Business cases/guesstimates in profitability, market entry, industry analysis; structured ambiguous prompts into questions, hypotheses, assumptions and decision criteria; used Python and SQL on business datasets; communicated recommendations in stakeholder-ready decks.",
+      "metrics": [],
+      "verify": "Do not invent client names, business impact, or percentage improvements."
+    },
+    {
+      "organization": "NTPC Dadri",
+      "title": "Summer Trainee - Turbine Maintenance Department",
+      "location": "Gautam Buddh Nagar, Uttar Pradesh",
+      "dates": "2026-06 to 2026-07",
+      "evidence": "Exposure to HP/LP turbine operations and maintenance at a 2,000 MW coal-based plant; reviewed operating/maintenance data, condition-monitoring signals, maintenance workflows, P&ID references; produced a 40-page technical report.",
+      "metrics": [
+        "2,000 MW plant",
+        "40-page report"
+      ],
+      "verify": "Do not claim downtime reduction or production impact; public turbine copilot uses synthetic data."
+    },
+    {
+      "organization": "DRDO - Solid State Physics Laboratory (SSPL)",
+      "title": "Research Intern",
+      "location": "New Delhi, India",
+      "dates": "2025-12 to 2026-01",
+      "evidence": "Studied Pulse Tube and Dilution Refrigeration concepts for cryogenic defence-electronics cooling below 4 K; interpreted schematics and thermodynamic relationships; co-authored a technical report.",
+      "project_report_title": "Cryogenic Refrigeration Using Pulse Tube and Dilution Cooling",
+      "verify": "Do not claim actual cryocooler build/deployment unless confirmed."
+    },
+    {
+      "organization": "Engineers India Limited (EIL)",
+      "title": "Plant Design Intern - Piping Division",
+      "location": "Gurugram, Haryana",
+      "dates": "2025-06 to 2025-07",
+      "evidence": "Prepared/revised AutoCAD plant layout and piping drawings, worked with nozzle orientations, ASME/IS, GD&T concepts and CAESAR II pipe-stress concepts; automated recurring Excel expenditure/spend reporting; earned Excellent evaluation.",
+      "metrics": [
+        "Excellent final evaluation"
+      ],
+      "verify": "Clarify CAESAR II hands-on scope and exact automation impact."
+    },
+    {
+      "organization": "Bluestock Fintech",
+      "title": "Software Development Intern (user-reported)",
+      "dates": "not confirmed",
+      "evidence": "User described building an IPO-focused application using Python and Django; saved resume material refers to Python/Django modules and product feedback.",
+      "verify": "Confirm dates, formal title, precise modules, and what shipped."
+    },
+    {
+      "organization": "CultFit",
+      "title": "Fitness/product work; formal internship status unclear",
+      "dates": "one saved project variant shows Jun 2024 to Jul 2024; confirm",
+      "evidence": "User research on fitness app engagement and a Thunkable MVP with leaderboards, milestones, rewards; one resume version says approximately 200 college student survey respondents.",
+      "verify": "Confirm employment classification, date, survey sample, and any user reach. Older memory has larger numbers (1,000+ surveyed; 2,000+ users)."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Uber Ride Demand & Supply-Failure Analysis",
+      "roles": [
+        "Data Analyst",
+        "Business Analyst",
+        "Product Analyst",
+        "Operations Analyst"
+      ],
+      "stack": [
+        "Python",
+        "pandas",
+        "NumPy",
+        "Matplotlib"
+      ],
+      "facts": [
+        "~150,000 NCR bookings across 365 days",
+        "~9x hourly demand swing",
+        "hourly cancellation/no-driver/failure rates around 24-26%",
+        "seven-day rolling average in one resume version"
+      ],
+      "caveat": "Dataset appeared likely synthetic/simulated; never claim official Uber operating benchmarks or causal effect.",
+      "github": "https://github.com/Nothing0g/Uber_ride_demand_analysis",
+      "portfolio": "https://nothing0g.github.io/analyst/projects/uber-ride-demand/"
+    },
+    {
+      "name": "HR Employee Attrition Analysis",
+      "roles": [
+        "Data Analyst",
+        "Business Analyst",
+        "People Analytics",
+        "Junior Data Scientist"
+      ],
+      "stack": [
+        "Python",
+        "pandas",
+        "scikit-learn",
+        "Logistic Regression",
+        "Random Forest"
+      ],
+      "facts": [
+        "1,470 IBM HR Analytics records",
+        "resume result: ~56% recall with Logistic Regression vs ~21% with Random Forest",
+        "overtime attrition association around 31% vs 10% in one resume"
+      ],
+      "caveat": "Reproduce metrics from notebook; observational association is not causation.",
+      "github": "https://github.com/Nothing0g/hr_employee_attrition_analysis",
+      "portfolio": "https://nothing0g.github.io/analyst/projects/hr-employee-attrition/"
+    },
+    {
+      "name": "Loan Approval Analysis",
+      "roles": [
+        "Data Analyst",
+        "Risk Analyst",
+        "Junior Data Scientist"
+      ],
+      "stack": [
+        "Python",
+        "pandas",
+        "scikit-learn",
+        "Logistic Regression"
+      ],
+      "facts": [
+        "Median/mode imputation and categorical encoding",
+        "70/30 train-test split",
+        "Accuracy, confusion matrix, precision, recall, F1 evaluation"
+      ],
+      "caveat": "Public dataset baseline; note recall imbalance, calibration, fairness and further validation needs.",
+      "github": "https://github.com/Nothing0g/loan-approval-analysis",
+      "portfolio": "https://nothing0g.github.io/analyst/projects/loan-approval/"
+    },
+    {
+      "name": "CultFit User Research & Fitness Challenge MVP",
+      "roles": [
+        "Product Analyst",
+        "Growth Analyst",
+        "Business Analyst",
+        "Product Design"
+      ],
+      "stack": [
+        "Survey Research",
+        "Thunkable",
+        "User Insights"
+      ],
+      "facts": [
+        "~200 college students in one saved resume",
+        "Motivation identified as an important engagement/drop-off barrier",
+        "MVP concept: leaderboards, milestones, rewards"
+      ],
+      "caveat": "Survey-size and user-reach numbers conflict across memory; do not claim measured retention lift.",
+      "portfolio": "https://nothing0g.github.io/analyst/projects/cultfit-user-behavior/"
+    },
+    {
+      "name": "Interior Lead Funnel Leak Detector",
+      "roles": [
+        "Growth Analyst",
+        "Product Analyst",
+        "Business Analyst"
+      ],
+      "stack": [
+        "SQL",
+        "Python",
+        "Funnel Analysis"
+      ],
+      "facts": [
+        "192 synthetic lead records",
+        "4 acquisition channels",
+        "66-record follow-up queue",
+        "4-hour response SLA boundary"
+      ],
+      "caveat": "Synthetic scenario, not actual company performance.",
+      "portfolio": "https://nothing0g.github.io/analyst/projects/interior-lead-funnel/"
+    },
+    {
+      "name": "TrueStack - University Student Services Assistant",
+      "roles": [
+        "AI Engineer",
+        "GenAI Engineer",
+        "Backend Engineer",
+        "Software Engineer"
+      ],
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Pydantic",
+        "LangGraph",
+        "RAG",
+        "SQLite",
+        "Sentence Transformers",
+        "ChromaDB",
+        "Docker"
+      ],
+      "facts": [
+        "Local-first assistant",
+        "Cited policy retrieval plus deterministic Python/SQLite tools",
+        "Request tracing, audit logs, schema and privacy checks",
+        "Backend/integration lead in saved resume"
+      ],
+      "caveat": "Synthetic policy/demo data; team size conflict 3 vs 4; not a production university/hospital platform.",
+      "github": "https://github.com/Nothing0g/TrueStack_HCLTech_aiHackathon",
+      "portfolio": "https://nothing0g.github.io/analyst/projects/truestack-ai-assistant/"
+    },
+    {
+      "name": "Retail Operations Copilot",
+      "roles": [
+        "AI Engineer",
+        "Backend Engineer",
+        "Business Analyst",
+        "Operations Analyst"
+      ],
+      "stack": [
+        "Python",
+        "Streamlit",
+        "RAG",
+        "CSV",
+        "Testing",
+        "Evaluation"
+      ],
+      "facts": [
+        "Inventory, receipts, returns, vendors and support cases",
+        "PII/payment masking, prompt-injection safeguards, human-review routing",
+        "One resume version uses 11 seeded evaluation cases"
+      ],
+      "caveat": "Synthetic/seeded data; proposes actions rather than executing refunds/business operations.",
+      "github": "https://github.com/Nothing0g/testing_case"
+    },
+    {
+      "name": "Turbine Maintenance Intelligence Copilot",
+      "roles": [
+        "Industrial AI",
+        "AI Engineer",
+        "Predictive Maintenance",
+        "Operations Analytics"
+      ],
+      "stack": [
+        "Python",
+        "pandas",
+        "NumPy",
+        "FastAPI",
+        "RAG/retrieval",
+        "GitHub Actions"
+      ],
+      "facts": [
+        "144 synthetic telemetry rows across 2 assets in one version",
+        "Rolling z-score anomaly detection plus maintenance retrieval",
+        "Local benchmark p50 9.7 ms / p95 12.4 ms in one resume version",
+        "Fixed timestamp-window boundary false positive"
+      ],
+      "caveat": "Synthetic prototype, not NTPC deployed system; keep benchmark only if reproducible.",
+      "github": "https://github.com/Nothing0g/turbine-maintenance-copilot",
+      "portfolio": "https://nothing0g.github.io/analyst/projects/turbine-maintenance-copilot/"
+    },
+    {
+      "name": "P&ID Engineering-Document Intelligence",
+      "roles": [
+        "AI Engineer",
+        "Backend Engineer",
+        "Industrial AI",
+        "Engineering Analytics"
+      ],
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Typed Schemas",
+        "Graph Modeling",
+        "CI"
+      ],
+      "facts": [
+        "Revision-aware API over synthetic P&ID metadata",
+        "Typed equipment/instrument entities and graph relationships",
+        "Connection validation, revision comparison and source-linked Q&A",
+        "Fixed comparator bug that missed deleted entities"
+      ],
+      "caveat": "Synthetic document metadata; demo counts are not universal performance metrics.",
+      "github": "https://github.com/Nothing0g/pid-engineering-document-intelligence",
+      "portfolio": "https://nothing0g.github.io/analyst/projects/pid-engineering-document-intelligence/"
+    },
+    {
+      "name": "Topology Optimization of Bike Suspension Arm",
+      "roles": [
+        "Mechanical Design",
+        "FEA",
+        "CAE",
+        "Product Development"
+      ],
+      "stack": [
+        "Structural FEA",
+        "Topology Optimization"
+      ],
+      "facts": [
+        "Memory records 18-30% weight reduction range"
+      ],
+      "caveat": "Confirm baseline, load cases, constraints, material, mesh and exact mass reduction."
+    },
+    {
+      "name": "POSHA / Latch Mechanism Design",
+      "roles": [
+        "Mechanical Design",
+        "FEA",
+        "Product Design",
+        "Manufacturing"
+      ],
+      "stack": [
+        "CAD",
+        "FEA",
+        "GD&T",
+        "Manufacturing considerations"
+      ],
+      "facts": [
+        "Prepared material cites ~40.95 MPa peak stress vs 65 MPa allowable; FoS ~1.59",
+        "Wedge latch concept, tolerance stack-up, POM/Delrin, injection moulding considerations"
+      ],
+      "caveat": "Confirm formal project name, design context, load cases, and results."
+    },
+    {
+      "name": "Car Differential Gear CAD Project",
+      "roles": [
+        "Mechanical Design",
+        "CAD"
+      ],
+      "stack": [
+        "CAD"
+      ],
+      "caveat": "Confirm software/version and deliverables."
+    },
+    {
+      "name": "Online Book Library",
+      "roles": [
+        "Python Developer",
+        "SQL"
+      ],
+      "stack": [
+        "Python",
+        "SQL"
+      ],
+      "facts": [
+        "Memory records catalogue of 500+ books"
+      ],
+      "caveat": "Confirm data provenance and exact functionality."
+    },
+    {
+      "name": "To-Do List App",
+      "roles": [
+        "Python Developer"
+      ],
+      "stack": [
+        "Python"
+      ]
+    },
+    {
+      "name": "AI Tic-Tac-Toe",
+      "roles": [
+        "Python Developer"
+      ],
+      "stack": [
+        "Python"
+      ]
+    },
+    {
+      "name": "Pressure Vessel Analysis",
+      "roles": [
+        "Mechanical Simulation"
+      ],
+      "stack": [
+        "ANSYS"
+      ],
+      "caveat": "Discussed/considered; do not claim complete unless execution/results confirmed."
+    }
+  ],
+  "skills": {
+    "programming_data": [
+      "Python",
+      "SQL",
+      "pandas",
+      "NumPy",
+      "scikit-learn",
+      "Matplotlib",
+      "Seaborn",
+      "MySQL",
+      "SQLite",
+      "Excel/report automation",
+      "EDA",
+      "data cleaning",
+      "statistics",
+      "classification",
+      "Logistic Regression",
+      "Random Forest",
+      "time-series analysis",
+      "anomaly detection",
+      "precision/recall/F1"
+    ],
+    "backend_software": [
+      "Django",
+      "FastAPI",
+      "REST APIs",
+      "Pydantic",
+      "Streamlit",
+      "Git",
+      "GitHub",
+      "GitHub Actions",
+      "CI",
+      "Docker",
+      "Docker Compose",
+      "API validation",
+      "schema validation",
+      "unit testing",
+      "regression testing",
+      "logging",
+      "debugging"
+    ],
+    "ai_genai": [
+      "RAG",
+      "information retrieval",
+      "embeddings",
+      "LangChain",
+      "LangGraph",
+      "ChromaDB",
+      "Sentence Transformers",
+      "prompt engineering",
+      "structured outputs",
+      "tool/function calling",
+      "agent workflows",
+      "Ollama",
+      "Qwen/Qwen2.5 7B Instruct",
+      "privacy checks",
+      "guardrails",
+      "human review",
+      "model/prompt evaluation"
+    ],
+    "engineering_cad_simulation": [
+      "AutoCAD",
+      "SolidWorks",
+      "Siemens NX",
+      "Fusion 360",
+      "ANSYS",
+      "CAESAR II concepts",
+      "GD&T",
+      "ASME/IS piping standards",
+      "plant layout",
+      "piping drawings",
+      "P&ID interpretation",
+      "nozzle orientations",
+      "structural FEA",
+      "topology optimization"
+    ],
+    "product_design": [
+      "Thunkable",
+      "Figma",
+      "FigJam",
+      "user research",
+      "survey synthesis",
+      "MVP design"
+    ],
+    "caution_not_to_foreground": [
+      "Do not list ChatGPT as a resume skill/tool",
+      "Do not highlight HTML",
+      "Do not claim AWS/Azure/GCP, PySpark, TensorFlow, PyTorch, foundation-model training, or advanced ML unless candidate confirms hands-on evidence"
+    ]
+  },
+  "certifications_awards_activities": {
+    "certifications_to_verify": [
+      "SolidWorks certification",
+      "Coursera Innovate with ANSYS Simulation Tools",
+      "Python for Data Science, AI & Development",
+      "Git/GitHub - 2024",
+      "NCC A Certificate"
+    ],
+    "awards": [
+      "Dell Aspire Scholar 2023 - Michael & Susan Dell Foundation",
+      "EIL Excellent final evaluation",
+      "Dell Aspire event recognition for focused problem framing (exact category to verify)"
+    ],
+    "leadership_activities": [
+      "School House Captain; Fraternity team multiple gold medals",
+      "NCC; two camps reported; national-level representation; Red Fort event mentioned in resume material",
+      "IEEE society",
+      "STEP-DTU society",
+      "NSD workshop"
+    ]
+  },
+  "latex_resume_sources": [
+    {
+      "company_or_type": "GoodSpace AI",
+      "role": "Growth Associate",
+      "tex": "goodspace_growth_associate_resume.tex",
+      "resume_pdf": "goodspace_growth_associate_resume.pdf",
+      "jd": "GoodSpace-Growth-Associate-Campus-JD (2).pdf",
+      "application_status": "Unknown; resume draft is not proof of submission."
+    },
+    {
+      "company_or_type": "Optum",
+      "role": "Associate Data Scientist",
+      "tex": "optum_associate_data_scientist.tex",
+      "resume_pdf": "optum_associate_data_scientist.pdf",
+      "jd": null,
+      "application_status": "Unknown; no matching separate JD found."
+    },
+    {
+      "company_or_type": "Rever",
+      "role": "SDE-1",
+      "tex": "Shubham_Kumar_Rever_SDE1_Resume.tex",
+      "resume_pdf": "Shubham_Kumar_Rever_SDE1_Resume(1).pdf",
+      "jd": null,
+      "application_status": "Unknown; no matching original JD found."
+    },
+    {
+      "company_or_type": "Runable (name as saved in file)",
+      "role": "Software Engineer Intern",
+      "tex": "Runable_Software_Engineer_Resume.tex",
+      "resume_pdf": "Runable_Software_Engineer_Resume.pdf",
+      "jd": null,
+      "application_status": "Unknown; verify exact employer spelling; no matching original JD found."
+    },
+    {
+      "company_or_type": "General template",
+      "role": "General SDE / AI",
+      "tex": "Shubham_Kumar_General_SDE_AI_Resume.tex",
+      "resume_pdf": "Shubham_Kumar_General_SDE_AI_Resume.pdf",
+      "jd": null,
+      "application_status": "Not a company-specific application."
+    }
+  ],
+  "other_role_artifacts_no_tex_confirmed": [
+    {
+      "company": "HCLTech",
+      "role": "AI Engineer / Future Ready AI Engineer",
+      "candidate_files": [
+        "Shubham_HCL.md",
+        "Shubham_HCL*.pdf",
+        "Shubham_Resume_Defence_Speaking_Script.pdf"
+      ],
+      "jd": "AI_Future_Ready_AI_Engineer_JD-1.pdf",
+      "application_status": "Unknown"
+    },
+    {
+      "company": "GDi Partners",
+      "role": "Associate Consultant",
+      "candidate_files": [
+        "Shubham_GDi.pdf",
+        "Shubham_GDi(1).pdf"
+      ],
+      "jd": "JD_Associate Consultant_GDi Partners (7).pdf",
+      "case": "Case Study_Concept Note_GDi Partners.pdf",
+      "application_status": "Unknown"
+    },
+    {
+      "company": "Signify",
+      "role": "GET - Supply Chain",
+      "candidate_files": [
+        "Shubham_Kumar_Signify.pdf",
+        "Signify_Resume_Script_Shubham_Kumar.pdf"
+      ],
+      "jd_material": [
+        "JD - Summer Internship - Batch 2027 - DTU.pdf",
+        "Signify_GET_Supply_Chain_Interview_Prep_Shubham_Kumar_v2.pdf"
+      ],
+      "application_status": "Unknown"
+    },
+    {
+      "company": "ICICI Bank",
+      "role": "Manager I / campus placement",
+      "candidate_files": [
+        "Shubham_23-ME-255_ICICI.pdf"
+      ],
+      "role_material": "FY2027_Campus Proposition_Tech Finals MI.pdf",
+      "application_status": "Unknown"
+    },
+    {
+      "company": "Frost & Sullivan",
+      "role": "Consulting Analyst",
+      "candidate_files": [
+        "Shubham_Consulting_Analyst_Frost_and_Sullivan-2.pdf"
+      ],
+      "role_material": "Consulting Analyst Applications- Frost and Sullivan.pdf",
+      "application_status": "Unknown"
+    },
+    {
+      "company": "GoodSpace AI",
+      "roles": [
+        "Growth Marketer",
+        "Delivery Consultant"
+      ],
+      "jd_material": [
+        "GoodSpace_JD_Growth_Marketer.pdf",
+        "GoodSpace_JD_Delivery_Consultant.pdf"
+      ],
+      "tex": "No matching source located for these two roles."
+    }
+  ],
+  "resume_preferences": [
+    "Always use the user's original LaTeX template and preserve formatting, margins, spacing, headings, header and commands unless asked to redesign.",
+    "One page exactly when requested; fill a full page, neither shorter nor longer.",
+    "Use a short, crisp summary and simple, direct English.",
+    "Select only relevant experience and 2-4 strongest projects for the JD; don't include everything on every resume.",
+    "Do not list ChatGPT as a resume tool; don't highlight HTML.",
+    "Use GitHub as the link label instead of Case Study when requested; portfolio link is sufficient in header.",
+    "Do not invent numbers, scope, outcomes, dates, skills, employment, or application status.",
+    "Use RAC thinking only if it naturally improves a bullet; candidate later asked not to force RAC labels into project bullets."
+  ],
+  "verification_required": [
+    "Current CGPA and X percentage (6.98 aggregate and 83.6% in saved resumes; older memory says 82% X).",
+    "CultFit status, dates, sample size and reported reach (resume says ~200 students; older memory says 1,000+ survey and 2,000+ users).",
+    "TrueStack team size (3 in resume vs 4 in earlier context).",
+    "Bluestock internship dates, formal title and precise shipped work.",
+    "Certificate titles, issuers, dates and links.",
+    "Bike suspension arm 18-30% weight reduction baseline and FEA evidence.",
+    "POSHA formal project title, loading and FEA evidence.",
+    "Hands-on depth for Power BI, Looker Studio, CAESAR II, SolidWorks, NX, ANSYS, Docker, LangChain and Qwen.",
+    "Current application/interview/offer status for each company; resume file alone does not imply submission.",
+    "Original JDs for Optum, Rever and Runable, if available."
+  ]
+}
